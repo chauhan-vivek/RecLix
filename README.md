@@ -53,7 +53,7 @@ Usage
 ------------
 1. Clone the repo
 	```
-	git clone https://github.com/chauhan-vivek/Rec-flix.git
+	git clone https://github.com/chauhan-vivek/RecLix.git
 	```
 2. Create virtual environment.
 	```make
@@ -90,7 +90,7 @@ Usage
 
 8. Run Streamlit app.
 	```make
-	streamlit run 'c:/Users/hp/Desktop/rec-flix/app.py'
+	streamlit run 'c:\Users\hp\Desktop\rec-flix\app.py'
 	```
 
 
@@ -101,15 +101,15 @@ Outputs
 EDA and Streamlit app
 
 EDA:
+https://github.com/chauhan-vivek/RecLix/blob/main/readme-assets/Streamlit-1.PNG
+![alt text](https://github.com/chauhan-vivek/RecLix/blob/main/readme-assets/Growth-in-content-over-years.png)
 
-![alt text](https://github.com/chauhan-vivek/RecLix.git/main/readme-assets/Growth-in-content-over-years.png)
-
-![alt text](https://github.com/chauhan-vivek/ReLix.git/main/readme-assets/network-graph-strongly-connected-categories.png)
+![alt text](https://github.com/chauhan-vivek/RecLix/blob/main/readme-assets/network-graph-strongly-connected-categories.png)
 
 StramLit App:
 
-![alt text](https://github.com/chauhan-vivek/RecLix.git/main/readme-assets/Streamlit-1.png)
-![alt text](https://github.com/chauhan-vivek/RecLix.git/main/readme-assets/Streamlit-2.png)
+![alt text](https://github.com/chauhan-vivek/RecLix/blob/main/readme-assets/Streamlit-1.png)
+![alt text]https://github.com/chauhan-vivek/RecLix/blob/main/readme-assets/Streamlit-2.png)
 
 Ackowledgements
 ------------
