@@ -1,0 +1,19 @@
+Collecting nbformat
+  Downloading nbformat-5.7.0-py3-none-any.whl (77 kB)
+     --------------------------------------- 77.1/77.1 kB 42.8 kB/s eta 0:00:00
+Requirement already satisfied: jupyter-core in c:\users\hp\.conda\envs\flix\lib\site-packages (from nbformat) (4.11.1)
+Collecting jsonschema>=2.6
+  Downloading jsonschema-4.16.0-py3-none-any.whl (83 kB)
+     -------------------------------------- 83.1/83.1 kB 583.0 kB/s eta 0:00:00
+Requirement already satisfied: traitlets>=5.1 in c:\users\hp\.conda\envs\flix\lib\site-packages (from nbformat) (5.4.0)
+Collecting fastjsonschema
+  Downloading fastjsonschema-2.16.2-py3-none-any.whl (22 kB)
+Collecting attrs>=17.4.0
+  Downloading attrs-22.1.0-py2.py3-none-any.whl (58 kB)
+     -------------------------------------- 58.8/58.8 kB 522.1 kB/s eta 0:00:00
+Collecting pyrsistent!=0.17.0,!=0.17.1,!=0.17.2,>=0.14.0
+  Downloading pyrsistent-0.18.1-cp310-cp310-win_amd64.whl (61 kB)
+     -------------------------------------- 61.6/61.6 kB 327.2 kB/s eta 0:00:00
+Requirement already satisfied: pywin32>=1.0 in c:\users\hp\.conda\envs\flix\lib\site-packages (from jupyter-core->nbformat) (303)
+Installing collected packages: fastjsonschema, pyrsistent, attrs, jsonschema, nbformat
+Successfully installed attrs-22.1.0 fastjsonschema-2.16.2 jsonschema-4.16.0 nbformat-5.7.0 pyrsistent-0.18.1
