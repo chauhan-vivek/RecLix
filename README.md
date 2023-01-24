@@ -6,8 +6,6 @@ RecLix
   <a>
     <img src="readme-assets/intro.png" alt="Logo" width="240" height="240">
   </a>
-
-  <h1 align="center">RecLix</h1>
 </div>
 
 Recommends movie titles based on other movie titles.
@@ -100,21 +98,18 @@ EDA and Streamlit app
 
 EDA:
 
-<br/ >
 <div align="center">
   <a>
     <img src="readme-assets/Growth-in-content-over-years.png" alt="Logo" width="480" height="360">
   </a>
 </div>
 
-<br/ >
 <div align="center">
   <a>
     <img src="readme-assets/network-graph-strongly-connected-categories.png" alt="Logo" width="480" height="360">
   </a>
 </div>
 
-<br/ >
 <div align="center">
   <a>
     <img src="readme-assets/Treemap-of-Movie-Genres.png" alt="Logo" width="480" height="360">
@@ -124,13 +119,12 @@ EDA:
 
 StramLit App:
 
-<br/ >
 <div align="center">
   <a>
     <img src="readme-assets/Streamlit-1.PNG" alt="Logo" width="480" height="360">
   </a>
 </div>
-<br/ >
+
 <div align="center">
   <a>
     <img src="readme-assets/Streamlit-2.PNG" alt="Logo" width="480" height="360">
