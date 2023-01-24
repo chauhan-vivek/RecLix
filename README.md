@@ -79,8 +79,8 @@ Usage
 	!cp kaggle.json ~/.kaggle/
 	!ls ~/.kaggle
 	!chmod 600 /root/.kaggle/kaggle.json  # set permission
-	!kaggle datasets list -s "Netflix Movies and TV Shows" # to search datasets
-	!kaggle datasets download shivamb/netflix-shows -f netflix_titles.csv -p 'C:/Users/hp/Desktop/rec-flix/data/raw' #to download dataset
+	!kaggle datasets list -s Netflix Movies and TV Shows
+	!kaggle datasets download shivamb/netflix-shows -f netflix_titles.csv -p C:\Users\hp\Desktop\rec-flix\data\raw
 	!tar -xvf #extract files
 	!tar -cvf #creates zip files
 	```
@@ -90,7 +90,7 @@ Usage
 
 8. Run Streamlit app.
 	```make
-	streamlit run 'c:\Users\hp\Desktop\rec-flix\app.py'
+	streamlit run c:/Users/hp/Desktop/rec-flix/app.py
 	```
 
 
@@ -101,15 +101,15 @@ Outputs
 EDA and Streamlit app
 
 EDA:
-https://github.com/chauhan-vivek/RecLix/blob/main/readme-assets/Streamlit-1.PNG
+
 ![alt text](https://github.com/chauhan-vivek/RecLix/blob/main/readme-assets/Growth-in-content-over-years.png)
 
 ![alt text](https://github.com/chauhan-vivek/RecLix/blob/main/readme-assets/network-graph-strongly-connected-categories.png)
 
 StramLit App:
 
-![alt text](https://github.com/chauhan-vivek/RecLix/blob/main/readme-assets/Streamlit-1.png)
-![alt text]https://github.com/chauhan-vivek/RecLix/blob/main/readme-assets/Streamlit-2.png)
+![alt text](https://github.com/chauhan-vivek/RecLix/blob/main/readme-assets/Streamlit-1.PNG)
+![alt text](https://github.com/chauhan-vivek/RecLix/blob/main/readme-assets/Streamlit-2.png)
 
 Ackowledgements
 ------------
