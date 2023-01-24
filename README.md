@@ -1,4 +1,4 @@
-Rec-flix
+RecLix
 ==============================
 <!-- PROJECT LOGO -->
 <br />
@@ -7,7 +7,7 @@ Rec-flix
     <img src="readme-assets/Treemap-of-Movie-Genres.png" alt="Logo" width="240" height="240">
   </a>
 
-  <h1 align="center">Rec-flix</h1>
+  <h1 align="center">RecLix</h1>
 </div>
 
 Recommends movie titles based on other movie titles.
@@ -80,7 +80,7 @@ Usage
 	!ls ~/.kaggle
 	!chmod 600 /root/.kaggle/kaggle.json  # set permission
 	!kaggle datasets list -s "Netflix Movies and TV Shows" # to search datasets
-	!kaggle datasets download shivamb/netflix-shows -f netflix_titles.csv -p `C:/Users/hp/Desktop/rec-flix/data/raw #to download dataset`
+	!kaggle datasets download shivamb/netflix-shows -f netflix_titles.csv -p 'C:/Users/hp/Desktop/rec-flix/data/raw' #to download dataset
 	!tar -xvf #extract files
 	!tar -cvf #creates zip files
 	```
@@ -90,11 +90,11 @@ Usage
 
 8. Run Streamlit app.
 	```make
-	streamlit run `c:/Users/hp/Desktop/rec-flix/app.py`
+	streamlit run 'c:/Users/hp/Desktop/rec-flix/app.py'
 	```
 
 
-![alt text](https://github.com/chauhan-vivek/RecLix.git/master/readme-assets/enter-query-image.png)
+![alt text](https://github.com/chauhan-vivek/RecLix.git/main/readme-assets/enter-query-image.png)
 
 Outputs
 ------------
@@ -102,14 +102,14 @@ EDA and Streamlit app
 
 EDA:
 
-![alt text](https://github.com/chauhan-vivek/RecLix.git/master/readme-assets/Growth-in-content-over-years.png)
+![alt text](https://github.com/chauhan-vivek/RecLix.git/main/readme-assets/Growth-in-content-over-years.png)
 
-![alt text](https://github.com/chauhan-vivek/ReLix.git/master/readme-assets/network-graph-strongly-connected-categories.png)
+![alt text](https://github.com/chauhan-vivek/ReLix.git/main/readme-assets/network-graph-strongly-connected-categories.png)
 
 StramLit App:
 
-![alt text](https://github.com/chauhan-vivek/RecLix.git/master/readme-assets/Streamlit-1.png)
-![alt text](https://github.com/chauhan-vivek/RecLix.git/master/readme-assets/Streamlit-2.png)
+![alt text](https://github.com/chauhan-vivek/RecLix.git/main/readme-assets/Streamlit-1.png)
+![alt text](https://github.com/chauhan-vivek/RecLix.git/main/readme-assets/Streamlit-2.png)
 
 Ackowledgements
 ------------
