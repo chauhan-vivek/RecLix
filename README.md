@@ -94,25 +94,48 @@ Usage
 	```
 
 
-![alt text](https://github.com/chauhan-vivek/RecLix.git/main/readme-assets/enter-query-image.png)
-
 Outputs
 ------------
 EDA and Streamlit app
 
 EDA:
 
-![alt text](https://github.com/chauhan-vivek/RecLix/blob/main/readme-assets/Growth-in-content-over-years.png)
+<br/ >
+<div align="center">
+  <a>
+    <img src="readme-assets/Growth-in-content-over-years.png" alt="Logo" width="480" height="360">
+  </a>
+</div>
 
-![alt text](https://github.com/chauhan-vivek/RecLix/blob/main/readme-assets/network-graph-strongly-connected-categories.png)
+<br/ >
+<div align="center">
+  <a>
+    <img src="readme-assets/network-graph-strongly-connected-categories.png" alt="Logo" width="480" height="360">
+  </a>
+</div>
 
-![alt text](https://github.com/chauhan-vivek/RecLix/blob/main/readme-assets/Treemap-of-Movie-Genres.png)
+<br/ >
+<div align="center">
+  <a>
+    <img src="readme-assets/Treemap-of-Movie-Genres.png" alt="Logo" width="480" height="360">
+  </a>
+</div>
 
 
 StramLit App:
 
-![alt text](https://github.com/chauhan-vivek/RecLix/blob/main/readme-assets/Streamlit-1.PNG)
-![alt text]((https://github.com/chauhan-vivek/RecLix/blob/main/readme-assets/Streamlit-2.PNG)
+<br/ >
+<div align="center">
+  <a>
+    <img src="readme-assets/Streamlit-1.PNG" alt="Logo" width="480" height="360">
+  </a>
+</div>
+<br/ >
+<div align="center">
+  <a>
+    <img src="readme-assets/Streamlit-2.PNG" alt="Logo" width="480" height="360">
+  </a>
+</div>
 
 Ackowledgements
 ------------
