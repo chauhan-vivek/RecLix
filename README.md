@@ -64,13 +64,15 @@ Usage
 	```make
 	make requirements
 	```
-5. Download data from Kaggle using Kaggle API: (All steps performed in Notebook, exclude "!" if running on CLI.)
-
-	Step 1 : pip install kaggle
-	step 2 : Create an account on Kaggle. In accounts click on Create API. This downloads kaggle.json which should be placed in ~/.kaggle 
-	Step 3 : Search the dataset of interest
-	Step 4 : Download dataset to mentioned path.
-	Step 5: Unzip the file either using zipfile module from python or using bash CLI tar command
+5. Download data from Kaggle using Kaggle API:   
+	(All steps performed in Notebook, exclude "!" if running on CLI.)
+	<br />
+	Step 1 : pip install kaggle <br />
+	step 2 : Create an account on Kaggle. In accounts click on Create API. This downloads kaggle.json which should be placed in ~/.kaggle <br />
+	Step 3 : Search the dataset of interest <br />
+	Step 4 : Download dataset to mentioned path. <br />
+	Step 5: Unzip the file either using zipfile module from python or using bash CLI tar command <br />
+	<br />
 	```make
 	!pip install kaggle
 	!mkdir -p ~/.kaggle
@@ -78,7 +80,7 @@ Usage
 	!ls ~/.kaggle
 	!chmod 600 /root/.kaggle/kaggle.json  # set permission
 	!kaggle datasets list -s "Netflix Movies and TV Shows" # to search datasets
-	!kaggle datasets download shivamb/netflix-shows -f netflix_titles.csv -p C:/Users/hp/Desktop/rec-flix/data/raw #to download dataset
+	!kaggle datasets download shivamb/netflix-shows -f netflix_titles.csv -p `C:/Users/hp/Desktop/rec-flix/data/raw #to download dataset`
 	!tar -xvf #extract files
 	!tar -cvf #creates zip files
 	```
@@ -88,11 +90,11 @@ Usage
 
 8. Run Streamlit app.
 	```make
-	streamlit run c:/Users/hp/Desktop/rec-flix/app.py
+	streamlit run `c:/Users/hp/Desktop/rec-flix/app.py`
 	```
 
 
-![alt text](https://github.com/chauhan-vivek/Rec-flix.git/master/readme-assets/enter-query-image.png)
+![alt text](https://github.com/chauhan-vivek/RecLix.git/master/readme-assets/enter-query-image.png)
 
 Outputs
 ------------
@@ -100,17 +102,17 @@ EDA and Streamlit app
 
 EDA:
 
-![alt text](https://github.com/chauhan-vivek/Rec-flix.git/master/readme-assets/Growth-in-content-over-years.png)
+![alt text](https://github.com/chauhan-vivek/RecLix.git/master/readme-assets/Growth-in-content-over-years.png)
 
-![alt text](https://github.com/chauhan-vivek/Rec-flix.git/master/readme-assets/network-graph-strongly-connected-categories.png)
+![alt text](https://github.com/chauhan-vivek/ReLix.git/master/readme-assets/network-graph-strongly-connected-categories.png)
 
 StramLit App:
 
-![alt text](https://github.com/chauhan-vivek/Rec-flix.git/master/readme-assets/Streamlit-1.png)
-![alt text](https://github.com/chauhan-vivek/Rec-flix.git/master/readme-assets/Streamlit-2.png)
+![alt text](https://github.com/chauhan-vivek/RecLix.git/master/readme-assets/Streamlit-1.png)
+![alt text](https://github.com/chauhan-vivek/RecLix.git/master/readme-assets/Streamlit-2.png)
 
 Ackowledgements
 ------------
 * [drivendata](https://github.com/drivendata)
-* [Shivam Bansal]https://www.kaggle.com/datasets/shivamb/netflix-shows
+* [Shivam Bansal](https://www.kaggle.com/datasets/shivamb/netflix-shows)
 --------
